@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#" id="active"><i class="fa fa-home" aria-hidden="true"></i>Home</a>
+        <a href="../page/index.html"><i class="fa fa-address-book" aria-hidden="true"></i>Charge Fine</a>
+        <a href="#"><i class="fa fa-user" aria-hidden="true"></i>Profiles</a>
+        <a href="#"><i class="fa fa-cog" aria-hidden="true"></i>Settings</a>
+      </div>
+    <div class="container">
+        <div class="header">
+            <img src="./Group 551.svg" alt="">
+           <span onclick="openNav()"> <img src="./Group 553.svg" alt=""></span>
+        </div>
+        <div class="welcome">
+            <div class="headline">
+                <p>Welcome ! <br>Search Fresh News Daily</p>
+            </div>
+            <div class="ser"><input type="search" placeholder="search"></div>
+             
+        </div>
+
+        <div class="wrapper">
+            <div class="card">
+                <div class="card-banner">
+                    <img src="./img1.jpg" alt="">
+                </div>
+                <div class="card-body">
+                    <p>Traffic in mumbai increased due to rain</p>
+                    <div class="desc">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio animi eos maiores fuga corporis aperiam architecto error quasi deleniti iure!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-banner">
+                    <img src="./img2.jpg" alt="">
+                </div>
+                <div class="card-body">
+                    <p>Accidents rate has been increased</p>
+                    <div class="desc">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio animi eos maiores fuga corporis aperiam architecto error quasi deleniti iure!</p>
+                    </div>
+                </div>
+            </div><div class="card">
+                <div class="card-banner">
+                    <img src="./img3.jpg" alt="">
+                </div>
+                <div class="card-body">
+                    <p>Government planning to take fine system to digital</p>
+                    <div class="desc">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio animi eos maiores fuga corporis aperiam architecto error quasi deleniti iure!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </div>
+
+
+
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+</body>
+</html>
